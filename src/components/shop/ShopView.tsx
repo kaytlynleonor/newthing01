@@ -302,7 +302,7 @@ export const ShopView: React.FC = () => {
         {/* Interactive Collection Feature Cards (when on COLLECTIONS tab) */}
         {filters.category === 'COLLECTIONS' && (
           <div className="space-y-4 animate-fade-up">
-            <div className="flex justify-between items-center text-xs font-sans">
+            {/* <div className="flex justify-between items-center text-xs font-sans">
               <span className="text-[10px] uppercase tracking-[0.3em] text-[#A99684] font-semibold">
                 SELECT A CAPSULE ARCHIVE TO FILTER PIECES:
               </span>
@@ -314,7 +314,7 @@ export const ShopView: React.FC = () => {
                   VIEW ALL CAPSULES ({products.length} PIECES)
                 </button>
               )}
-            </div>
+            </div> */}
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {COLLECTIONS_DATA.map((col) => {
